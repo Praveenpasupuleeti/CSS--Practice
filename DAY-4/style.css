@@ -1,0 +1,25 @@
+.parent{
+    width: 300px;
+    height: 250px;
+    border: 1px solid black;
+    position: relative;
+    display: inline-block;
+}
+.child{
+    width: 100px;
+    height: auto;
+    border: 1px solid black;
+    position: absolute;
+    left: 0;
+    top:0;
+    background-color: black;
+    color: white;
+    display: inline-block;
+}
+
+    
+
+img{
+    width:100%;
+    height: auto;
+}

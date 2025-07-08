@@ -1,0 +1,15 @@
+.container{
+    background-color: rgb(240, 8, 8);
+    color: aliceblue;
+}
+.sp{
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-top: 30px;
+}
+.sp{
+    border:1px solid rgb(0, 0, 255)
+}
+.sp{
+    margin: 10px;
+}
