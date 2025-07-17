@@ -1,0 +1,50 @@
+.container{
+    width:100%;
+    height: auto;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.item1{
+    text-decoration: none;
+}
+.item a:hover{
+    background-color: lightsteelblue;
+    width: 10px;
+    height: 5px;
+    cursor: pointer;
+}
+a{
+    padding:20px;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+    background-color: black;
+    color: white;
+    /* display: inline; */
+    text-decoration: none;
+    padding: 15px;
+    display: flex;
+    /* justify-content: space-around; */
+
+}
+a:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    width: 24.99999%;
+}
+a {
+    width: 24.99999%;
+    padding:10px ;
+}
