@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+}
+.div{
+    background-image: url(./photos/wedding_couple.jpg);
+    background-size: cover;
+    width: 100%;
+    min-height: 600px;
+    position: relative;
+}
+.div2{
+    position: absolute;
+    left:33%; 
+    bottom: 30%;
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    letter-spacing: 1px;    
+}
+.div2 p{
+    margin: 10px 0;
+    
+}
+.div2 :first-child{
+    letter-spacing: 4px;
+    font-size: 50px;
+    font-family: "Raleway", sans-serif;
+}
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    color: black;
+    z-index: 1;
+    position: sticky;
+    bottom: 0;
+    text-decoration: none;
+}
+.nav a{
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.nav a:hover{
+    background-color: rgba(120, 119, 119, 0.374);
+    color: rgb(13, 13, 13);
+}
+.wedding2{
+    background-color: rgb(249, 240, 227);
+    width: 100%;
+    height: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.wedding2 h2{
+    letter-spacing: 4px;
+    font-size: 50px;
+    font-family: "Raleway", sans-serif;
+    margin: 60px;
+    color: rgb(100, 100, 99);
+}
+.wedding2child{
+    width: 1100px;
+    height: 1100px;
+}
+.wedding2child img{
+    width: 100%;
+    height: 100%;
+}
+
+.wedding2 p{
+    width: 1100px;
+    height: 600px;
+    letter-spacing: 2px;
+    margin: 40px;
+    line-height: 25px;
+}
+
+.wedding2 a{
+    padding: 30px;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.flowers{
+    background-image: url(./photos/flowers.jpg);
+    width: 100%;
+    height: 800px;
+    background-size: cover;
+    position: relative;
+}
+.flowerschild{
+    position: absolute;
+    left: 35%;
+    bottom: 30%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 40px;
+    margin: 10px;
+}
+
+.flowerschild :first-child{
+    letter-spacing: 4px;
+    font-size: 50px;
+    font-family: "Raleway", sans-serif;
+}
+.flowerschild :last-child{
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+.weddinglocation{
+    background-color: rgb(246, 235, 221);
+    width:100%;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.weddinglocation h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    letter-spacing: 4px;
+    font-size: 50px;
+    font-family: "Raleway", sans-serif;
+    color: rgb(114, 113, 113);
+}
+.weddinglocationchild img{
+    width: 1100px;
+    height: 600px;
+}
+
+.addres{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(248, 237, 224);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+
+.item p{
+    margin: 30px;
+}
+.item :first-child{
+    font-size: 30px;
+    text-align: center;
+}
+
+.calling{
+    width:100%;
+    height: 200px;
+    background-color:rgb(250, 234, 212);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+}
+
+.calling p{
+    letter-spacing: 4px;
+    font-size: 20px;
+    font-family: "Raleway", sans-serif;
+    padding: 10px;
+}
+
+.calling a{
+    padding: 7px;
+    background-color: black;
+    color: white;
+}
+.calling span{
+    padding: 20px;
+}
+
+.calling a:hover{
+    background-color: white;
+    color: black;
+}
+
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

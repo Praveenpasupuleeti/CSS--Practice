@@ -1,0 +1,25 @@
+.div{
+    background-color: black;
+    color:white;
+    display: none;
+    flex-direction: column;
+    width:fit-content;
+}
+.div>span{
+    font-size: 50px;
+    border-bottom: 1px solid;
+}
+.div span:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+label{
+    font-size: large;
+}
+#checked:checked+.div{
+    display: flex;
+}
+#checked{
+    display: none;
+}

@@ -1,0 +1,19 @@
+.div{
+    width: 100%;
+    height: 410px;
+    border: 1px solid black;
+}
+img{
+    width: 150px;
+    height: 150px;
+}
+.div1{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+.div2{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+}
